@@ -37,11 +37,18 @@ body {
   /* margin: 15px; */
 }
 
-header {
+.header {
   display: flex;
   padding-top: 25.5px;
   padding-left: 156px;
   padding-bottom: 25.5px;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+}
+
+.header-item {
+  display: flex;
+  width: 1158px;
 }
 
 nav {
@@ -399,7 +406,7 @@ address {
 .footer {
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
-  padding-top: 101.5px;
+  padding-top: 100px;
   padding-left: 156px;
   padding-bottom: 100px;
 }
@@ -412,6 +419,8 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-dark {
@@ -428,6 +437,6 @@ address {
   line-height: 24px;
   letter-spacing: 0.32px;
 
-  width: 264px;
+  max-width: 264px;
   margin-top: 17.5px;
 }
