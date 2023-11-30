@@ -46,13 +46,13 @@ body {
   background: var(--WHITE, #fff);
 }
 
-.header-item {
+/* .header-item {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 nav {
   display: flex;
@@ -152,12 +152,12 @@ address {
 }
 
 /* banner*/
-.banner-main {
+.banner {
+  padding-top: 188px;
+  padding-bottom: 188px;
   flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
   margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .banner-slogan {
@@ -219,8 +219,9 @@ address {
 }
 
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .vorteil-list {
