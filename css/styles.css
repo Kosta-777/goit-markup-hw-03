@@ -266,6 +266,7 @@ address {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -288,6 +289,8 @@ address {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+  width: calc((100% - 72px) / 4);
 }
 
 .team-content {
@@ -297,6 +300,8 @@ address {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-foto {
@@ -314,6 +319,7 @@ address {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .team-profi {
@@ -390,7 +396,7 @@ address {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
+  margin-bottom: 8px;
   padding-bottom: 8px;
 }
 
