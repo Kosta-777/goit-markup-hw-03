@@ -44,15 +44,18 @@ body {
   padding-bottom: 25.5px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.header-item {
+/* .header-item {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 nav {
   display: flex;
