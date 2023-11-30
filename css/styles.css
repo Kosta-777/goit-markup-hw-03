@@ -37,13 +37,11 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* display: flex; */
 }
 
 .header {
-  /* display: flex; */
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  display: flex;
+
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
@@ -74,10 +72,9 @@ body {
 
 /* menu */
 .menu {
-  list-style-type: none;
   display: flex;
+  list-style-type: none;
   gap: 40px;
-  padding-right: 332px;
 }
 
 .list-menu {
@@ -113,7 +110,7 @@ body {
 }
 
 /* address */
-address {
+.address {
   font-style: normal;
   display: flex;
   justify-content: flex-end;
@@ -121,6 +118,7 @@ address {
 }
 
 .address-list-content {
+  display: flex;
 }
 
 .address-list {
