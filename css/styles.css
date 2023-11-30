@@ -216,6 +216,9 @@ address {
   padding-bottom: 120px;
 }
 
+.visually-hidden {
+}
+
 .vorteil-list {
   list-style-type: none;
   display: flex;
@@ -225,6 +228,7 @@ address {
 
 .vorteil-list-part {
   width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .vorteil-header {
@@ -235,6 +239,7 @@ address {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .vorteil-text {
@@ -416,7 +421,6 @@ address {
   background: var(--NAVY-BLUE, #2e2f42);
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
 }
 .footer-logo-link {
   font-family: 'Raleway', sans-serif;
