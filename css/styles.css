@@ -41,7 +41,7 @@ body {
 }
 
 .header {
-  display: flex;
+  /* display: flex; */
   padding-top: 25.5px;
   padding-bottom: 25.5px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
@@ -96,7 +96,7 @@ body {
   letter-spacing: 0.32px;
   padding-top: 24px;
   padding-bottom: 24px;
-  display: flex;
+  /* display: flex; */
 }
 
 .link-menu:hover {
@@ -167,10 +167,8 @@ address {
   letter-spacing: 1.12px;
   line-height: 1.07;
 
-  padding-top: 188px;
-  padding-right: 472px;
+  margin: 0 auto;
   padding-bottom: 48px;
-  padding-left: 472px;
 
   max-width: 496px;
 }
