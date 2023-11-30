@@ -431,6 +431,7 @@ address {
   padding-top: 100px;
   padding-bottom: 100px;
   display: inline-block;
+  display: flex;
 }
 .footer-logo-link {
   font-family: 'Raleway', sans-serif;
