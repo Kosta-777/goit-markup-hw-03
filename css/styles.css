@@ -58,7 +58,7 @@ body {
   padding-right: 15px;
 } */
 
-nav {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -99,6 +99,8 @@ nav {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .link-menu:hover {
@@ -389,10 +391,10 @@ address {
 }
 
 .portfolio-list-item {
-  width: calc((100% - 48px) / 3);
   flex-shrink: 0;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-foto {
