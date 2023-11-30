@@ -33,8 +33,11 @@ body {
   margin: 0 auto;
 }
 .container {
-  /* width: 1158px; */
-  /* margin: 15px; */
+  width: 1158px;
+  margin: 15px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header {
@@ -45,8 +48,6 @@ body {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /* .header-item {
@@ -121,7 +122,7 @@ nav {
 /* address */
 address {
   font-style: normal;
-  /* display: flex; */
+  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
