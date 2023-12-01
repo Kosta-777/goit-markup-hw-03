@@ -40,10 +40,9 @@ body {
 }
 
 .header {
-  display: flex;
-
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
+  display: flex;
 }
 
 .nav {
@@ -93,7 +92,6 @@ body {
   letter-spacing: 0.32px;
   padding-top: 24px;
   padding-bottom: 24px;
-  /* display: flex; */
 }
 
 .link-menu:hover {
@@ -113,12 +111,12 @@ body {
 .address {
   font-style: normal;
   display: flex;
+
   justify-content: flex-end;
   align-items: center;
 }
 
 .address-list-content {
-  display: flex;
 }
 
 .address-list {
