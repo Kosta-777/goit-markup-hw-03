@@ -29,8 +29,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
-  margin: 0 auto;
 }
 .container {
   width: 1158px;
@@ -42,6 +40,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header {
@@ -71,7 +70,6 @@ body {
 
 .logo-light {
   color: #2e2f42;
-  padding-right: 76px;
 }
 
 /* menu */
@@ -82,8 +80,7 @@ body {
 }
 
 .list-menu {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: block;
 }
 
 .link-menu {
@@ -97,6 +94,7 @@ body {
   letter-spacing: 0.32px;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 .link-menu:hover {
@@ -169,8 +167,8 @@ body {
   line-height: 1.07;
 
   margin: 0 auto;
-  padding-bottom: 48px;
 
+  margin-bottom: 48px;
   max-width: 496px;
 }
 
@@ -278,7 +276,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-bottom: 72px;
+
   margin-bottom: 72px;
 }
 
@@ -296,7 +294,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -307,8 +304,7 @@ body {
 }
 
 .team-content {
-  display: flex;
-  width: 232px;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -320,7 +316,6 @@ body {
 .team-foto {
   background: url(<path-to-image>),
     lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-  /* margin-bottom: 32px; */
 }
 
 .team-name {
@@ -345,14 +340,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  margin-bottom: 32px;
+  margin: 0;
 }
 
 /* Portfolio */
 
 .portfolio {
   padding-top: 120px;
-  padding-bottom: 120px;
   margin: 0 auto;
 }
 
@@ -376,14 +370,13 @@ body {
   column-gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
-  margin-bottom: 120px;
   justify-content: center;
 }
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
   flex-shrink: 0;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+
   background: var(--WHITE, #fff);
 }
 
@@ -410,7 +403,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  padding-bottom: 8px;
 }
 
 .portfolio-label-text {
@@ -445,7 +437,6 @@ body {
 
 .footer-logo-dark {
   color: var(--CLOUD, #f4f4fd);
-  padding-bottom: 17.5px;
 }
 
 .footer-slogan {
@@ -458,5 +449,5 @@ body {
   letter-spacing: 0.32px;
 
   max-width: 264px;
-  margin-top: 17.5px;
+  margin-top: 0;
 }
